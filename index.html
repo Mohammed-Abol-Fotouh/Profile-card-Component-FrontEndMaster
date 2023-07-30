@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="build.css">
+  <title>Frontend Mentor | Profile card component</title>
+
+  <style>
+    body {
+      background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+      background-repeat: no-repeat, no-repeat;
+      background-position: right 50vw bottom 50vh, left 50vw top 40vh;
+    }
+
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body class="font-Kumbh-Sans bg-Dark-cyan overflow-hidden">
+  <main class="h-screen flex flex-col justify-center items-center gap-20 text-lg">
+    <section class="bg-white rounded-lg overflow-hidden shadow-md">
+      <div class="header ">
+        <img src="images/bg-pattern-card.svg" alt="pattern background image">
+      </div>
+
+      <div class="text-center relative pt-16 pb-7 border-b border-solid border-Dark-gray">
+        <img src="images/image-victor.jpg" alt="vector image"
+          class="block m-auto rounded-full border-4 border-white border-solid absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2">
+        <h1 class="font-bold">Victor Crest <span class="font-normal text-Dark-gray">26</span></h1>
+        <p class="text-Dark-gray text-sm">London</p>
+      </div>
+
+      <footer class="flex justify-around py-6 font-bold">
+        <div class="flex flex-col text-Very-dark-desaturated-blue">80K<span
+            class="font-normal text-Dark-gray text-xs">Followers</span></div>
+        <div class="flex flex-col text-Very-dark-desaturated-blue">803K<span
+            class="font-normal text-Dark-gray text-xs">Likes</span></div>
+        <div class="flex flex-col text-Very-dark-desaturated-blue">1.4K<span
+            class="font-normal text-Dark-gray text-xs">Photos</span></div>
+      </footer>
+    </section>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a
+        href="#">Mohammed Abol Fotouh</a>.
+    </div>
+  </main>
+</body>
+
+</html>
